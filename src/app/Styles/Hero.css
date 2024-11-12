@@ -166,8 +166,7 @@
 
 /* Profile Avatar Image */
 .profile-avatar {
-  width: 120%;
-  height: 120%;
+  
   border-radius: 50%; /* Ensure circular shape */
   object-fit: cover; /* Ensures the image fits properly inside the container */
   transition: transform 0.4s ease; /* Add smooth zoom transition */
