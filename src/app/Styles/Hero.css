@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Geologica',sans-serifs;
+}
+
+.hero-container {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* width: 80%; */
+  padding: 20px;
+}
+
+.app-bar {
+  background: transparent;
+  box-shadow: none;
+}
+
+.nav-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.hero-content {
+  width: 80%; /* Controls how wide the content should be */
+  max-width: 1200px; /* Optional: Set a max-width for larger screens */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7rem;
+  padding: 40px;
+
+  /* Ensure it is centered */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.role-title{
+  color:white !important;
+  margin-top: 2rem !important;
+  font-weight: 600 !important;
+
+}
+
+.left-section {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  
+  margin-left: auto;
+  
+  
+}
+
+.custom-hr{
+  border: none;
+  height: 0.8px;
+  /* width: 60%; */
+  background-color: silver;
+  margin: 30px 0;
+}
+
+.custom-hr-2{
+  border: none;
+  height: 0.5px;
+  width: 100%;
+  background-color: silver;
+  margin: 30px 0;
+}
+
+.status ul{
+  display: flex;
+  gap: 30px;
+  padding-left: 20px;
+
+}
+
+.sub-title-home{
+  color: white;
+  font-weight: 600 !important;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width:auto;
+  
+}
+
+.name-highlight {
+  color: silver;
+  font-weight: 700;
+}
+
+.hero-description {
+  /* max-width: 600px; */
+  margin-bottom: 20px;
+  letter-spacing: 1px !important;
+}
+
+.resume-btn {
+  margin-top: 20px !important;
+  border-color: rgba(245, 0, 87, 0.5) !important;
+  color: rgba(245, 0, 87, 0.5) !important;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .MuiIconButton-root {
+  color: white;
+  margin-right: 10px;
+}
+
+
+
+/* Custom Circular Cursor */
+
+.custom-cursor.hide {
+  opacity: 1;
+}
+
+.custom-cursor.active {
+  transform: scale(1.5) translate(-50%, -50%); /* Enlarge cursor on hover effect */
+}
+
+/* Zoom Avatar Container */
+.zoom-avatar {
+  position: relative;
+  width: 250px; /* Adjust the size as needed */
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+/* Gradient Border using Pseudo-element */
+.zoom-avatar::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  background: linear-gradient(93deg, blue, red); /* Gradient border */
+  z-index: -1; /* Keeps the border behind the image */
+}
+
+/* Profile Avatar Image */
+.profile-avatar {
+  width: 120%;
+  height: 120%;
+  border-radius: 50%; /* Ensure circular shape */
+  object-fit: cover; /* Ensures the image fits properly inside the container */
+  transition: transform 0.4s ease; /* Add smooth zoom transition */
+}
+
+/* Hover Zoom Effect for Avatar */
+.zoom-avatar:hover .profile-avatar {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.full-name {
+  margin-top: 1.1rem;
+  font-size: 1.5rem; /* Set font size for the name */
+  display: flex;
+  align-items:flex-start; /* Align the text and icon vertically */
+  flex-direction: column;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  color: white;
+}
+
+.work-title{
+  color: gray;
+  font-size: 1rem;
+  text-align: left;
+}
+.verified-icon {
+  font-size: 1.5rem; /* Match the icon size to the text size */
+  color: #0077B5;
+  margin-left: 5px; /* Optional: Add some spacing between the name and icon */
+}
+
+/* Sidebar Navigation */
+.nav-links {
+  font-size: 1.2rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  width: 15rem;
+}
+
+.nav-link {
+  padding: 10px;
+  color: #c9d1d9;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  width:100%;
+  justify-content: start;
+  
+}
+
+.nav-link:hover{
+  background-color: #1E1E1E;
+  border-radius: 10px;
+}
+
+
+.nav-link:hover {
+  color: rgba(245, 0, 87, 0.5);
+}
+
+
+
+.work-together-section{
+  background-color: #1E1E1E;
+  padding: 30px 25px; 
+  margin-top: 20px;
+  border-radius:10px ;
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.work-together-btn{
+  background-color: #525252 !important;
+  width: 30%;
+}
+
+.work-together-title{
+  display: flex;
+  
+  gap: 10px;
+}
+
+
+
+
+
+.custom-cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(245, 0, 87, 0.5); 
+    border-radius: 50%;
+    pointer-events: none; 
+    z-index: 1000;
+    transition: transform 0.1s ease, opacity 0.2s ease;
+    transform: translate(-50%, -50%);
+  } 
+
+  @media (max-width: 500px){
+
+    .hero-container {
+      
+      /* padding: 20px; */
+      margin: 0px;
+    }
+
+    .hero-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding:0px;
+      padding: 10px;
+      margin:0px;
+      max-width:100%;
+      width:100%;
+      
+    }
+    
+
+    .status ul{
+      display: flex;
+      flex-direction: column;
+      list-style-type: disc;
+    
+    }
+    .work-together-btn{
+      width:50%;
+    }
+
+  }
+
+
+  
+  @media (min-width: 768px) {
+    .zoom-avatar {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .name-text {
+      font-size: 1.8rem;
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    .nav-links {
+      flex-direction: col;
+    }
+  
+    .nav-link {
+      padding: 0.5rem 1rem;
+    }
+  
+    .navigation-bar {
+      background: none;
+    }
+  }
+  
+
