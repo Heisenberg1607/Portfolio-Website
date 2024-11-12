@@ -28,7 +28,7 @@ function Navigation() {
             alt="Atharva Kurumbhatte"
             src="/Photos/Portfolio-image.jpg"
             sx={{ width: 400, height: 400 }}
-            className="profile-avatar"
+            className="profile-avatar max-500:w-16 max-500:h-16"
           />
         </div>
         <div className="hamburger-icon md:hidden" onClick={toggleMenu}>
