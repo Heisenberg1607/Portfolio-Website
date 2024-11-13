@@ -20,8 +20,8 @@ export default function HeroSection() {
 
   return (
     
-       
-        <div
+           
+              <div
           className={`contact-section transition-transform duration-1000 ease-in-out p-0 max-w-full text-left ${
             isVisible
               ? "translate-y-5 opacity-100"

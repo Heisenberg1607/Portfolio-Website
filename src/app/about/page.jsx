@@ -8,7 +8,7 @@ function About() {
   return (
 
 
-        <AboutContainer></AboutContainer>
+          <AboutContainer></AboutContainer>
 
   );
 }

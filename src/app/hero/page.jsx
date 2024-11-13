@@ -6,8 +6,8 @@ function Hero() {
   return (
 
 
-        // {/* Right Section */}
-        <HeroSection></HeroSection>
+      // {/* Right Section */}
+      <HeroSection></HeroSection>
 
   )
 }
