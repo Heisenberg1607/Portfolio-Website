@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState, useEffect } from "react";
 import ContactLogos from "@/UI/Contact/ContactLogos";
 import CalendlySection from "@/UI/Contact/CalendlySection";
