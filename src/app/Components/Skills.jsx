@@ -1,28 +1,27 @@
-"use client"
+"use client";
 
-import React from 'react'
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import React from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
-function Skills({scrollSpeed=60, reverse = false}) {
-
-    const skills = [
-        { name: 'React.js', icon: 'react.svg' },
-        { name: 'CSS', icon: 'css-3.svg' },
-        { name: 'TailwindCSS', icon: 'tailwindcss-icon.svg' },
-        { name: 'OpenAI', icon: 'openai-icon.svg' },
-        { name: 'Next.js', icon: 'nextjs-icon.svg' },
-        { name: 'Node.js', icon: 'nodejs-icon.svg' },
-        { name: 'TypeScript', icon: 'typescript-icon-round.svg' },
-        { name: 'Unity3D', icon: 'unity.svg' },
-        { name: 'Github', icon: 'github-icon.svg' },
-        { name: 'Javascript', icon: 'javascript.svg' },
-        { name: 'Solidity', icon: 'solidity.svg' },
-        { name: 'Java', icon: 'java.svg' },
-        { name: 'Python', icon: 'python.svg' },
-        { name: 'Springboot', icon: 'spring-icon.svg' },
-        { name: 'MySQL', icon: 'mysql-icon.svg' },
-    ];
+function Skills({ scrollSpeed = 60, reverse = false }) {
+  const skills = [
+    { name: "React.js", icon: "react.svg" },
+    { name: "CSS", icon: "css-3.svg" },
+    { name: "TailwindCSS", icon: "tailwindcss-icon.svg" },
+    { name: "OpenAI", icon: "openai-icon.svg" },
+    { name: "Next.js", icon: "nextjs-icon.svg" },
+    { name: "Node.js", icon: "nodejs-icon.svg" },
+    { name: "TypeScript", icon: "typescript-icon-round.svg" },
+    { name: "Unity3D", icon: "unity.svg" },
+    { name: "Github", icon: "github-icon.svg" },
+    { name: "Javascript", icon: "javascript.svg" },
+    { name: "Solidity", icon: "solidity.svg" },
+    { name: "Java", icon: "java.svg" },
+    { name: "Python", icon: "python.svg" },
+    { name: "Springboot", icon: "spring-icon.svg" },
+    { name: "MySQL", icon: "mysql-icon.svg" },
+  ];
 
   return (
     <div className="overflow-hidden relative w-full">
@@ -50,7 +49,12 @@ function Skills({scrollSpeed=60, reverse = false}) {
                       max-500:px-2 max-500:py-1 max-500:text-xs"
           >
             <div className="w-4 h-4 max-500:w-3 max-500:h-3">
-              <Image alt="logo" src={`/icons/${skill.icon}`} width={24} height={24} />
+              <Image
+                alt="logo"
+                src={`/Icons/${skill.icon}`}
+                width={24}
+                height={24}
+              />
             </div>
             <span className="font-medium">{skill.name}</span>
           </div>

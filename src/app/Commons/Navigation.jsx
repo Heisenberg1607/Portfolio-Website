@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Typography from "@mui/material/Typography";
-import Avatar from "@mui/material/Avatar";
+// import Avatar from "@mui/material/Avatar";
+import Image from "next/image";
 import Link from "next/link";
 import {
   Coffee,
@@ -24,11 +25,13 @@ function Navigation() {
       {/* Navigation bar header with profile picture and hamburger menu */}
       <div className="max-500:flex max-500:flex-row max-500:items-center max-500:justify-between max-500:w-full max-500:p-4 max-500:fixed max-500:top-0 max-500:left-0 max-500:z-50 max-500:bg-[#121212] max-500:border-b max-500:shadow-md">
         <div className="zoom-avatar max-500:w-16 max-500:h-16">
-          <Avatar
+          <Image
             alt="Atharva Kurumbhatte"
             src="/Photos/Portfolio-image.jpg"
-            sx={{ width: 400, height: 400 }}
-            className="profile-avatarm"
+            // sx={{ width: 400, height: 400 }}
+            width="200"
+            height="200"
+            className="profile-avatar"
           />
         </div>
         <div className="hamburger-icon md:hidden" onClick={toggleMenu}>
