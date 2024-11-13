@@ -25,8 +25,8 @@ function ProjectContainer() {
           isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
         }`}
       >
-        {PROJECTSLIST.projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
+        {PROJECTSLIST.projects.map((project,index) => (
+          <ProjectCard key={index} project={project} />
         ))}
       </div>
     </div>

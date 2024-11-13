@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState, useEffect } from 'react';
 import AboutSection from "../Components/About";
 import EducationSection from '../Components/Education';

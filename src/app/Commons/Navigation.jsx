@@ -63,17 +63,17 @@ function Navigation() {
                 <House /> <span>Home</span>
               </li>
             </Link>
-            <Link href="/About" onClick={() => setMenuOpen(false)}>
+            <Link href="/about" onClick={() => setMenuOpen(false)}>
               <li className="nav-link">
                 <UserSearch /> <span>About</span>
               </li>
             </Link>
-            <Link href="/Projects" onClick={() => setMenuOpen(false)}>
+            <Link href="/projects" onClick={() => setMenuOpen(false)}>
               <li className="nav-link">
                 <Coffee /> <span>Projects</span>
               </li>
             </Link>
-            <Link href="/Contacts" onClick={() => setMenuOpen(false)}>
+            <Link href="/contact" onClick={() => setMenuOpen(false)}>
               <li className="nav-link">
                 <PhoneCall /> <span>Contact</span>
               </li>
