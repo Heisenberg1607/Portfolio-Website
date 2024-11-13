@@ -1,5 +1,5 @@
 import React from 'react'
-import JobCard from '../Commons/CareerCard';
+import JobCard from '@/UI/Commons/CareerCard';
 
 function Career() {
   return (

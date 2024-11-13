@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ContactLogos from "../Elements/Contact/ContactLogos";
-import CalendlySection from "../Elements/Contact/CalendlySection";
-import "../globals.css";
+import ContactLogos from "@/UI/Contact/ContactLogos";
+import CalendlySection from "@/UI/Contact/CalendlySection";
+// import "../globals.css";
 
 function ContactSection() {
   const [isVisible, setIsVisible] = useState(false);

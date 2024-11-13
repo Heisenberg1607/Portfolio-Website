@@ -1,7 +1,9 @@
+"use client"
+
 import React, { useState, useEffect } from 'react';
-import "../globals.css";
-import ProjectCard from "../Commons/ProjectCard";
-import { PROJECTSLIST } from "../constant/projects_data.js"; 
+// import "@/globals.css";
+import ProjectCard from "@/UI/Commons/ProjectCard.jsx";
+import { PROJECTSLIST } from "@/UI/constant/projects_data.js"; 
 
 function ProjectContainer() {
 

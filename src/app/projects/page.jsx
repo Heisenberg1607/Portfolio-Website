@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import "../Styles/Hero.css";
-import Navigation from "@/app/Commons/Navigation";
-import ProjectsContainer from "@/app/Components/ProjectContainer";
+import "@/UI/Styles/Hero.css";
+import Navigation from "@/UI/Commons/Navigation";
+import ProjectsContainer from "@/UI/Components/ProjectContainer";
 
 function Projects() {
   return (

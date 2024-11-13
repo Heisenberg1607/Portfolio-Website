@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import AboutSection from "../Components/About";
-import EducationSection from '../Components/Education';
-import CareerSection from '../Components/Career';
-import Skills from '../Components/Skills';
+import AboutSection from "./About";
+import EducationSection from './Education';
+import CareerSection from './Career';
+import Skills from './Skills';
 
 function AboutContainer() {
   const [isVisible, setIsVisible] = useState(false);

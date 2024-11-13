@@ -1,7 +1,7 @@
 // import { Button } from '@mui/material'
 import React from 'react'
 import DownloadIcon from '@mui/icons-material/Download';
-import "../globals.css";
+// import "../globals.css";
 import Link from 'next/link'
 import Button from '@mui/material/Button';
 

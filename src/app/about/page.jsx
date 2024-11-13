@@ -1,8 +1,8 @@
 // import React, { useState, useEffect } from 'react';
 
-import "../Styles/Hero.css";
-import Navigation from "@/app/Commons/Navigation.jsx";
-import AboutContainer from "@/app/Components/AboutContainer";
+import "@/UI/Styles/Hero.css";
+import Navigation from "@/UI/Commons/Navigation.jsx";
+import AboutContainer from "@/UI/Components/AboutContainer";
 
 function About() {
   return (

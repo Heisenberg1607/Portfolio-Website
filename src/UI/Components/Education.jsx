@@ -1,5 +1,5 @@
 import React from 'react'
-import EducationCard from '../Commons/EducationCard';
+import EducationCard from '@/UI/Commons/EducationCard';
 
 function Education() {
   return (

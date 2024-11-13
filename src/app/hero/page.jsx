@@ -5,10 +5,10 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 // import Avatar from '@mui/material/Avatar';
 import { Rocket } from "lucide-react";
-import Navigation from "@/app/Commons/Navigation";
-import "../Styles/Hero.css"; // Custom CSS for styling
+import Navigation from "@/UI/Commons/Navigation.jsx";
+import "@/UI/Styles/Hero.css"; // Custom CSS for styling
 import { useState, useEffect } from "react";
-import "../globals.css";
+// import "../globals.css";
 import Link from "next/link";
 
 export default function Hero() {

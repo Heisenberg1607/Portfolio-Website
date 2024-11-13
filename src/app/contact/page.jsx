@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Navigation from "@/app/Commons/Navigation";
-import "../Styles/Hero.css";
-import ContactSection from "@/app/Components/ContactSection";
+import Navigation from "@/UI/Commons/Navigation";
+import "@/UI/Styles/Hero.css";
+import ContactSection from "@/UI/Components/ContactSection";
 
 function Contacts() {
   return (
