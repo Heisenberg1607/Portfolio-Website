@@ -15,9 +15,7 @@ function ProjectContainer() {
 
   return (
     <div 
-      className={`display-flex flex-col max-w-3xl contact-section transition-transform duration-1000 ease-in-out ${
-        isVisible ? 'translate-y-5 opacity-100' : 'translate-y-full opacity-0'
-      } p-4 md:p-8 max-500:p-0 max-500:pd-5`}
+      className={`display-flex flex-col max-w-3xl contact-section  p-4 md:p-8 max-500:p-0 max-500:pd-5`}
     >
       <h1 className="font-medium text-2xl md:text-3xl mb-3 text-gray-200">Projects</h1>
       <p className="mb-3 text-gray-500 text-sm md:text-base">Here are some projects I worked on...</p>
