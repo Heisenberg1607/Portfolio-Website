@@ -24,16 +24,15 @@ function Navigation() {
     <div className="right-section max-500:w-fit">
       {/* Navigation bar header with profile picture and hamburger menu */}
       <div className="max-500:flex max-500:flex-row max-500:items-center max-500:justify-between max-500:w-full max-500:p-4 max-500:fixed max-500:top-0 max-500:left-0 max-500:z-50 max-500:bg-[#121212] max-500:border-b max-500:shadow-md">
-        <div className="zoom-avatar max-500:w-16 max-500:h-16">
-          <Image
-            alt="Atharva Kurumbhatte"
-            src="/Photos/Portfolio-image.jpg"
-            // sx={{ width: 400, height: 400 }}
-            width="200"
-            height="200"
-            className="profile-avatar"
-          />
-        </div>
+        <Image
+          alt="Atharva Kurumbhatte"
+          src="/Photos/Portfolio-image.jpg"
+          // sx={{ width: 400, height: 400 }}
+          width="50"
+          height="50"
+          className="rounded-full object-cover w-16 h-16"
+        />
+
         <div className="hamburger-icon md:hidden" onClick={toggleMenu}>
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </div>
