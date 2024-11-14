@@ -21,16 +21,16 @@ function Navigation() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <div className="right-section max-500:w-fit">
+    <div className="right-section max-500:w-fit mt-12 ">
       {/* Navigation bar header with profile picture and hamburger menu */}
-      <div className="max-500:flex max-500:flex-row max-500:items-center max-500:justify-between max-500:w-full max-500:p-4 max-500:fixed max-500:top-0 max-500:left-0 max-500:z-50 max-500:bg-[#121212] max-500:border-b max-500:shadow-md">
+      <div className="max-500:flex max-500:flex-row max-500:items-center max-500:justify-between max-500:w-full max-500:p-4 max-500:fixed max-500:top-0 max-500:left-0 max-500:z-50 max-500:bg-[#121212] max-500:border-b max-500:shadow-md ">
         <Image
           alt="Atharva Kurumbhatte"
           src="/Photos/Portfolio-image.jpg"
           // sx={{ width: 400, height: 400 }}
-          width="50"
-          height="50"
-          className="rounded-full object-cover w-16 h-16"
+          width="150"
+          height="150"
+          className="rounded-full object-cover w-40 h-40 max-500:w-16 max-500:h-16 my-3 max-500:my-1 "
         />
 
         <div className="hamburger-icon md:hidden" onClick={toggleMenu}>
@@ -56,7 +56,7 @@ function Navigation() {
         </div>
 
         {/* Navigation Links */}
-        <div className="navigation-bar">
+        <div className="navigation-bar max-500:pt-3">
           <ul className="nav-links">
             <Link href="/" onClick={() => setMenuOpen(false)}>
               <li className="nav-link">
@@ -82,7 +82,7 @@ function Navigation() {
         </div>
       </div>
 
-      <hr className="custom-hr-2" />
+      {/* <hr className="custom-hr-2" /> */}
     </div>
   );
 }
