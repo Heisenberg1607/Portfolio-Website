@@ -129,7 +129,7 @@ function ProjectCard({ project }) {
             return iconName ? (
               <img
                 key={index}
-                src={`/icons/${iconName}`}
+                src={`/Icons/${iconName}`}
                 alt={`${stack} Icon`}
                 className="w-6 h-6"
               />
