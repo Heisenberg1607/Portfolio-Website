@@ -13,6 +13,7 @@ import {
   BadgeCheck,
   Menu,
   X,
+  Speech,
 } from "lucide-react";
 
 function Navigation() {
@@ -76,6 +77,11 @@ function Navigation() {
             <Link href="/contact" onClick={() => setMenuOpen(false)}>
               <li className="nav-link">
                 <PhoneCall /> <span>Contact</span>
+              </li>
+            </Link>
+            <Link href="/testimonials" onClick={() => setMenuOpen(false)}>
+              <li className="nav-link">
+                <Speech /> <span>Testimonials</span>
               </li>
             </Link>
           </ul>

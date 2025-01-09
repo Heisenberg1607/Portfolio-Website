@@ -46,6 +46,7 @@
 "use client"
 
 import React from 'react';
+import Image from 'next/image'
 
 function ProjectCard({ project }) {
 
@@ -127,10 +128,12 @@ function ProjectCard({ project }) {
 
             // Render icon only if iconName is matched
             return iconName ? (
-              <img
+              <Image
                 key={index}
                 src={`/Icons/${iconName}`}
                 alt={`${stack} Icon`}
+                width="50"
+                height="50"
                 className="w-6 h-6"
               />
             ) : null;
