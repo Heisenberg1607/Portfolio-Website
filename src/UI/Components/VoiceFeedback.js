@@ -56,6 +56,7 @@ const VoiceRecorderApp = () => {
           setTranscription((prev) => prev + transcriptSegment[0].transcript);
         } else {
           interimTranscript += transcriptSegment[0].transcript;
+          console.log(interimTranscript);
         }
       }
     };
