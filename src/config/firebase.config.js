@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyC-xRBlGjUtNM5i7-bP72D6KygGYEmtr2M",
+
   apiKey: process.env.API_KEY,
   authDomain: "portfolio-nextjs-54a7b.firebaseapp.com",
   projectId: "portfolio-nextjs-54a7b",
