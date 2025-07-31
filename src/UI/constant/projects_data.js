@@ -5,7 +5,7 @@ export const PROJECTSLIST = {
         slug: '',
         description:
           'A full-stack voice-based therapy chatbot that uses LLMs and TTS to simulate emotionally intelligent, real-time conversations with persistent session memory.',
-        image: '/Photos/ai-therapist-project-pic.png',
+        image: '/Photos/ai-therapist-hero-page-pic.png',
         link_demo: 'https://github.com/Heisenberg1607/AI-Therapist',
         link_github: '#',
         stacks: [
