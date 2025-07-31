@@ -13,7 +13,7 @@ function About() {
 
       <hr className='mt-2'/>
 
-      <Link href="https://drive.google.com/file/d/1-S1FXC28CuN6QHgYYztMDxlo1UD7Lc3i/view?usp=drive_link" passHref target="_blank"
+      <Link href="https://drive.google.com/file/d/1bhwLTWyYjwRAzZZ7fa6Z_RpSE9lovuBJ/view?usp=drive_link" passHref target="_blank"
   rel="noopener noreferrer">
             <Button variant="outlined" color="primary" className="resume-btn my-3">
               <DownloadIcon/>
