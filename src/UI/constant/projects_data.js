@@ -1,5 +1,27 @@
 export const PROJECTSLIST = {
-    projects: [
+  projects: [
+    {
+        title: 'AI Therapist - Context-Aware Voice Therapy Chat System',
+        slug: '',
+        description:
+          'A full-stack voice-based therapy chatbot that uses LLMs and TTS to simulate emotionally intelligent, real-time conversations with persistent session memory.',
+        image: '/Photos/blockchain project pic.png',
+        link_demo: 'https://github.com/Heisenberg1607/AI-Therapist',
+        link_github: '#',
+        stacks: [
+          'NextJS',
+          'JavaScript',
+          'ExpressJS',
+          'PostgreSQL',
+          'Tailwind',
+          'DeepSeek',
+          'ElevanLabs'
+        ],
+        content: '',
+        is_show: true,
+        is_featured: true,
+        updated_at: new Date(),
+      },
       {
         title: 'Blockchain - Smart Rental Application',
         slug: '',
